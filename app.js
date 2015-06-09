@@ -1,1 +1,1 @@
-var QuirksOfPortland = angular.module('QuirksOfPortland', []);
+var quirksOfPortland = angular.module('quirksOfPortland', []);
