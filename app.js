@@ -2,19 +2,19 @@ var quirksOfPortland = angular.module('quirksOfPortland', ['ngRoute', 'ngAnimate
 
 quirksOfPortland.config(function($routeProvider) {
     $routeProvider
-    //home
+        //home
         .when('/', {
-            templateUrl: 'page-home.html',
+            templateUrl: '/views/partials/page-home.html',
             controller: 'quirksCtrl'
         })
         //about
         .when('/about/', {
-            templateUrl: 'page-about.html',
+            templateUrl: 'views/partials/page-about.html',
             controller: 'aboutCtrl'
         })
         //contact
         .when('/contact', {
-            templateUrl: 'page-contact.html',
+            templateUrl: 'views/partials/page-contact.html',
             controller: 'contactCtrl'
         });
 });

@@ -1,6 +1,3 @@
-quirksOfPortland.controller('quirksOfPortland', function QuirksCtrl($scope){
-  $scope.quirks = [
-    { name: "Sample Quirk"}
-  ]
-
+quirksOfPortland.controller('QuirksCtrl', function QuirksCtrl($scope){
+    $scope.pageClass = 'page-home';
 });
