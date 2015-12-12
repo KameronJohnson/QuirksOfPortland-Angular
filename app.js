@@ -5,16 +5,16 @@ quirksOfPortland.config(function($routeProvider) {
         //home
         .when('/', {
             templateUrl: 'views/partials/page-home.html',
-            controller: 'quirksCtrl'
+            controller: 'QuirksCtrl'
         })
         //about
         .when('/about/', {
             templateUrl: 'views/partials/page-about.html',
-            controller: 'aboutCtrl'
+            controller: 'AboutCtrl'
         })
         //contact
         .when('/contact', {
             templateUrl: 'views/partials/page-contact.html',
-            controller: 'contactCtrl'
+            controller: 'ContactCtrl'
         });
 });
