@@ -4,7 +4,7 @@ quirksOfPortland.config(function($routeProvider) {
     $routeProvider
         //home
         .when('/', {
-            templateUrl: '/views/partials/page-home.html',
+            templateUrl: 'views/partials/page-home.html',
             controller: 'quirksCtrl'
         })
         //about
